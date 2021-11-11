@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SchoolWeb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>School Website Design</title>
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="School%20Web.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+
+<!------About Us Content-------------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the World's largest unversity</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum volutpat lorem, non luctus nunc pellentesque a.
+                Ut lorem ligula, tempor non diam vitae, dictum accumsan justo. Nam cursus sed odio et consectetur.
+                Curabitur ligula felis, finibus eget elementum quis, sollicitudin at libero.
+                Nunc magna risus, placerat vehicula scelerisque quis, volutpat convallis purus.
+                Suspendisse malesuada condimentum purus id imperdiet. Curabitur felis tortor, molestie sed sodales ac, consectetur ac ante.
+                Mauris scelerisque orci eu vestibulum pharetra.</p>
+            <a href="https://singidunum.ac.rs/page/o-nama">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/about.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet libero enim. Donec feugiat ex ac nisi venenatis, ac luctus metus pharetra.
+        Nam est odio, condimentum sit amet tortor sit amet, finibus aliquet felis. Phasellus imperdiet sapien in massa blandit lacinia.
+        Aenean quis lacus at lacus efficitur posuere. Donec cursus justo ac purus sodales, in fringilla orci accumsan.
+        Aenean libero orci, condimentum vitae ullamcorper non, dignissim euismod est.
+        Mauris tristique, ligula vitae tristique eleifend, justo neque viverra lacus, quis ullamcorper sapien augue sed lacus.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> Me</p>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
